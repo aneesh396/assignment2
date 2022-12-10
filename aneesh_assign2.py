@@ -96,7 +96,7 @@ plt.legend()
 plt.show()
 
 
-gdp_x = gdp_df_t[COUNTRIES][3:-1]
+gdp_x = gdp_df_t[COUNTRIES][32:-2]
 plt.figure(figsize=(10, 10))
 sns.lineplot(gdp_x)
 plt.xticks(rotation=90)
